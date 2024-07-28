@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input, textarea, button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+  }
+  
+  .note-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .note-items{
+    text-align: center;
+    border: 1px solid  black;
+    margin: 1rem;
+    background-color: skyblue;
+  }
+
+  .note-item h3 {
+    margin-top: 0;
+  }
+  
+  .pagination button {
+    margin-right: 5px;
+  }
+  
+  .pagination .active {
+    font-weight: bold;
+  }
